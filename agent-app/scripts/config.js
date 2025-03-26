@@ -3,11 +3,11 @@ export default {
     environment: 'production',
 
     // Using local test servers
-    developmentUri: 'https://joshestrada.github.io/pexip-genesys-agent/agent-app',
+    developmentUri: 'https://joshestrada.github.io/rbfcu-c1-genesysapp/agent-app',
 
     // Publicly accessible location where the admin-app files are hosted.
     // This is different than the Pexip conference node value below.
-    prodUri:  'https://joshestrada.github.io/pexip-genesys-agent/agent-app',
+    prodUri:  'https://joshestrada.github.io/rbfcu-c1-genesysapp/agent-app',
 
     // Id for the video DOM element. Only change this if you customize index.html.
     videoElementId: "pexip-video-container",
@@ -20,7 +20,7 @@ export default {
 
         // OAuth Client ID
         // Created in "Create a Token Implicit OAuth Grant for Genesys Cloud deployment" step
-        oauthClientID: '9708dcf4-5e6b-4b2e-9639-0b91c63b8089'
+        oauthClientID: '6f045461-346e-4d65-a278-558ebf775bbd'
     },
 
     pexip: {
