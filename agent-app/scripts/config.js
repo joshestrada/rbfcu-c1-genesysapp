@@ -3,11 +3,11 @@ export default {
     environment: 'production',
 
     // Using local test servers
-    developmentUri: 'https://joshestrada.github.io/rbfcu-c1-genesysapp/agent-app',
+    developmentUri: 'https://in-uat.rbfcu.org/telecom/agent-app',
 
     // Publicly accessible location where the admin-app files are hosted.
     // This is different than the Pexip conference node value below.
-    prodUri:  'https://joshestrada.github.io/rbfcu-c1-genesysapp/agent-app',
+    prodUri:  'https://in-uat.rbfcu.org/telecom/agent-app',
 
     // Id for the video DOM element. Only change this if you customize index.html.
     videoElementId: "pexip-video-container",
